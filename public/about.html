@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>App</title>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="PWAGram">
+  <link rel="apple-touch-icon" href="/src/images/icons/apple-icon-57x57.png" sizes="57x57">
+  <link rel="apple-touch-icon" href="/src/images/icons/apple-icon-60x60.png" sizes="60x60">
+  <link rel="apple-touch-icon" href="/src/images/icons/apple-icon-72x72.png" sizes="72x72">
+  <link rel="apple-touch-icon" href="/src/images/icons/apple-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="/src/images/icons/apple-icon-114x114.png" sizes="114x114">
+  <link rel="apple-touch-icon" href="/src/images/icons/apple-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="/src/images/icons/apple-icon-144x144.png" sizes="144x144">
+  <link rel="apple-touch-icon" href="/src/images/icons/apple-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="/src/images/icons/apple-icon-180x180.png" sizes="180x180">
+  <meta name="msapplication-TileImage" content="/src/images/icons/app-icon-144x144.png">
+  <meta name="msapplication-TileColor" content="#fff">
+  <meta name="theme-color" content="#3f51b5">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style type="text/css">
+    .checked {
+  color: orange;
+}
+  </style>
+
+</head>
+<body>
+
+<div class="ui menu" style="margin: 0px;">
+  <div class="header item">
+    <i class="arrow alternate circle left icon"></i><a href="/">Foodie</a>
+  </div>
+  <a class="item" href="/about.html">
+    Find
+  </a>
+  <a class="item" href="/info.html">
+    Pay
+  </a>
+  <a class="item" href="/wishlist.html">
+    wishlist
+  </a>
+  <a class="item" href="/signin.html">
+    Signup
+  </a>
+</div>
+
+<br>
+<div class="container" style="text-align: center; width: 100%;">
+  <div class="ui search">
+  <div class="ui icon input">
+    <input class="prompt" type="text" placeholder="Search your favourites...">
+    <i class="search icon"></i>
+  </div>
+  <div class="results"></div>
+</div>
+</div>
+
+<h3 style="text-align: center;">Restuarants nearby</h3>
+
+
+<!--card-->
+<div class="ui card container">
+  <div class="image">
+    <img src="src/images/food1.jpeg">
+  </div>
+  <div class="content">
+    <a class="header" href="/fullitem.html">Kristy
+      <div style="float: right;">
+        <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      </div>
+    </a>
+    <div class="meta">
+      <span class="date">Joined in 2013</span>
+    </div>
+    <div class="description">
+      Survey No. 27, Near Trimurti Chowk, Dhankawadi, Pune, Maharashtra
+    </div>
+  </div>
+  <div class="extra content">
+    <a>
+      <i class="user icon"></i>
+      62 people visited this week
+    </a>
+  </div>
+</div>
+
+<div class="ui card container">
+  <div class="image">
+    <img src="src/images/food2.jpeg">
+  </div>
+  <div class="content">
+    <a class="header"  href="/fullitem.html">Mcdonalds</a>
+    <div style="float: right;">
+        <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      </div>
+    <div class="meta">
+      <span class="date">Joined in 2013</span>
+    </div>
+    <div class="description">
+      Survey No. 27, Near Trimurti Chowk, Dhankawadi, Pune, Maharashtra
+    </div>
+  </div>
+  <div class="extra content">
+    <a>
+      <i class="user icon"></i>
+      82 people visited this week
+    </a>
+  </div>
+</div>
+
+<div class="ui card container">
+  <div class="image">
+    <img src="src/images/food3.jpeg">
+  </div>
+  <div class="content">
+    <a class="header" href="/fullitem.html">Vaishs</a>
+    <div style="float: right;">
+        <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+      </div>
+    <div class="meta">
+      <span class="date">Joined in 2013</span>
+    </div>
+    <div class="description">
+      Survey No, 124, Paud Rd, Kothrud, Pune, Maharashtra 411038
+    </div>
+  </div>
+  <div class="extra content">
+    <a>
+      <i class="user icon"></i>
+      192 people visited this week
+    </a>
+  </div>
+</div>
+
+<div class="ui card container">
+  <div class="image">
+    <img src="src/images/food1.jpeg">
+  </div>
+  <div class="content">
+    <a class="header"  href="/fullitem.html">Kristy</a>
+    <div style="float: right;">
+        <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+      </div>
+    <div class="meta">
+      <span class="date">Joined in 2013</span>
+    </div>
+    <div class="description">
+      Survey No, 124, Paud Rd, Kothrud, Pune, Maharashtra 411038
+    </div>
+  </div>
+  <div class="extra content">
+    <a>
+      <i class="user icon"></i>
+      22 Friends
+    </a>
+  </div>
+</div>
+
+<div class="ui card container">
+  <div class="image">
+    <img src="src/images/food1.jpeg">
+  </div>
+  <div class="content">
+    <a class="header" href="/fullitem"  href="/fullitem.html">Shameoi</a>
+    <div style="float: right;">
+        <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+      </div>
+    <div class="meta">
+      <span class="date">Joined in 2013</span>
+    </div>
+    <div class="description">
+      Kristy is an art director living in New York.
+    </div>
+  </div>
+  <div class="extra content">
+    <a>
+      <i class="user icon"></i>
+      22 Friends
+    </a>
+  </div>
+</div>
+
+<div class="ui card container">
+  <div class="image">
+    <img src="src/images/food2.jpeg">
+  </div>
+  <div class="content">
+    <a class="header" href="/fullitem">Kristy</a>
+    <div style="float: right;">
+        <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+      </div>
+    <div class="meta">
+      <span class="date">Joined in 2013</span>
+    </div>
+    <div class="description">
+      Kristy is an art director living in New York.
+    </div>
+  </div>
+  <div class="extra content">
+    <a>
+      <i class="user icon"></i>
+      22 Friends
+    </a>
+  </div>
+</div>
+
+<script src="/src/js/promise.js"></script>
+<script src="/src/js/fetch.js"></script>
+<script src="/src/js/app.js"></script>
+</body>
+</html>
