@@ -1,20 +1,12 @@
 {
-  "name": "pwa-complete-guide",
+  "name": "foodie",
   "version": "1.0.0",
-  "description": "A complete guide to PWAs. Building a simple Instagram clone.",
+  "description": "food app",
   "main": "index.js",
   "scripts": {
     "start": "http-server -c-1"
   },
-  "keywords": [
-    "pwa",
-    "progressive",
-    "web",
-    "app",
-    "complete",
-    "tutorial"
-  ],
-  "author": "Maximilian Schwarzmüller",
+  "author": "Sagar Patil",
   "license": "ISC",
   "devDependencies": {
     "http-server": "^0.10.0"
